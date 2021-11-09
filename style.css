@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: yellow;
+    height: 100vh;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    
+    margin: 30px;
+    animation: lol 3s linear 0s infinite alternate ;
+    
+    
+}
+.first{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+@keyframes lol {
+    from{
+        transform: skewX(20deg);
+
+    }
+    to{
+        transform: skewX(-20deg);}
+    
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: rosybrown;
+    
+    margin: 30px;
+    animation: tol 3s linear 0s infinite alternate ;
+}    
+
+@keyframes tol {
+        from{
+            transform: skewY(20deg);
+    
+        }
+        to{
+            transform: skewY(-20deg);}
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+   
+    margin: 30px;
+    animation: ol 3s ease-in-out 0s infinite forwards ;
+}  
+@keyframes ol {
+    from{
+        transform: rotateZ(0deg);
+
+    }
+    to{
+        transform: rotateZ(360deg);}
+} 
+.box4{
+    height: 100px;
+    width: 100px;
+    background-color: rosybrown;
+    
+    margin: 30px;
+    animation: zol 3s linear 0s infinite alternate ;
+}  
+@keyframes zol {
+    from{
+        height: 100px;
+
+    }
+    to{
+        height: 10px;}
+} 
+.box5{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    
+    margin: 30px;
+    animation: sol 3s ease-in-out 0s infinite alternate ;
+}  
+@keyframes sol {
+    from{
+        width: 100px;
+
+    }
+    to{
+        width: 10px;}
+} 
+.box6{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    
+    margin: 30px;
+    animation: mol 3s ease-in-out 0s infinite alternate ;
+}  
+@keyframes mol {
+    from{
+        transform: rotateZ(0deg);
+
+    }
+    to{
+        transform: rotateZ(360deg)}
+} 
+.link{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    position: relative;
+    top: -50px;
+
+    
+    
+
+
+
+}   
+    
